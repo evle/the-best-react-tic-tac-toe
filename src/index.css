@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square{
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.highlight{
+  color: red;
+  border: 2px solid red;
+}
+.game-board{
+
+}
+
+.container{
+  height: 100vh;
+  weight: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.row{
+  display: flex;
+}
